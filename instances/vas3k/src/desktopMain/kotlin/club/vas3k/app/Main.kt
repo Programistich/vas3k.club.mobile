@@ -3,12 +3,12 @@ package club.vas3k.app
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
 import androidx.compose.ui.window.rememberWindowState
-import com.arkivanov.decompose.DefaultComponentContext
-import com.arkivanov.decompose.extensions.compose.lifecycle.LifecycleController
-import com.arkivanov.essenty.lifecycle.LifecycleRegistry
 import club.vas3k.app.di.DesktopAppComponent
 import club.vas3k.app.di.create
 import club.vas3k.core.ktx.common.AppDispatchers
+import com.arkivanov.decompose.DefaultComponentContext
+import com.arkivanov.decompose.extensions.compose.lifecycle.LifecycleController
+import com.arkivanov.essenty.lifecycle.LifecycleRegistry
 import com.russhwolf.settings.PreferencesSettings
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.SupervisorJob

@@ -1,10 +1,10 @@
 package club.vas3k.ui.decompose
 
-import com.arkivanov.decompose.ComponentContext
-import com.arkivanov.essenty.lifecycle.Lifecycle
 import club.vas3k.ui.decompose.internal.WindowDecorator
 import club.vas3k.ui.decompose.internal.createWindowDecorator
 import club.vas3k.ui.decompose.statusbar.StatusBarIconStyleProvider
+import com.arkivanov.decompose.ComponentContext
+import com.arkivanov.essenty.lifecycle.Lifecycle
 
 abstract class ScreenDecomposeComponent(
     componentContext: ComponentContext

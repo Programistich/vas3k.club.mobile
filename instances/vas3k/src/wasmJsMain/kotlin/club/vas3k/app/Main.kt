@@ -2,14 +2,14 @@ package club.vas3k.app
 
 import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.window.ComposeViewport
+import club.vas3k.app.di.WasmJSAppComponent
+import club.vas3k.app.di.create
+import club.vas3k.core.ktx.common.AppDispatchers
 import com.arkivanov.decompose.DefaultComponentContext
 import com.arkivanov.essenty.lifecycle.LifecycleRegistry
 import com.arkivanov.essenty.lifecycle.resume
 import com.arkivanov.essenty.lifecycle.stop
 import com.arkivanov.essenty.statekeeper.StateKeeperDispatcher
-import club.vas3k.app.di.WasmJSAppComponent
-import club.vas3k.app.di.create
-import club.vas3k.core.ktx.common.AppDispatchers
 import com.russhwolf.settings.StorageSettings
 import com.russhwolf.settings.observable.makeObservable
 import kotlinx.browser.document

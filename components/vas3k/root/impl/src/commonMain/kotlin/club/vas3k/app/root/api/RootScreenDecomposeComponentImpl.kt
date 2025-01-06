@@ -5,8 +5,8 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import com.arkivanov.decompose.ComponentContext
 import club.vas3k.ui.decompose.ScreenDecomposeComponent
+import com.arkivanov.decompose.ComponentContext
 import me.tatarka.inject.annotations.Assisted
 import me.tatarka.inject.annotations.Inject
 

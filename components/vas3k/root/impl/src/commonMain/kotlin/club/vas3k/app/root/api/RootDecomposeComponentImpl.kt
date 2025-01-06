@@ -1,10 +1,10 @@
 package club.vas3k.app.root.api
 
-import com.arkivanov.decompose.ComponentContext
-import com.arkivanov.decompose.router.stack.childStack
 import club.vas3k.app.root.model.RootNavigationConfig
 import club.vas3k.core.di.AppGraph
 import club.vas3k.ui.decompose.DecomposeComponent
+import com.arkivanov.decompose.ComponentContext
+import com.arkivanov.decompose.router.stack.childStack
 import me.tatarka.inject.annotations.Assisted
 import me.tatarka.inject.annotations.Inject
 import software.amazon.lastmile.kotlin.inject.anvil.ContributesBinding

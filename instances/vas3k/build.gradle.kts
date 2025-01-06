@@ -143,7 +143,7 @@ commonDependencies {
     implementation(projects.components.vas3k.preference.impl)
 }
 
-includeCommonKspConfigurationTo("kspAndroid", "kspDesktop", )
+includeCommonKspConfigurationTo("kspAndroid", "kspDesktop",)
 
 dependencies {
     add("kspCommonMainMetadata", libs.kotlin.inject.ksp)

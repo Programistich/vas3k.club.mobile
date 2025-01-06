@@ -1,9 +1,9 @@
 import androidx.compose.ui.window.ComposeUIViewController
-import club.vas3k.core.ktx.common.AppDispatchers
-import com.arkivanov.decompose.ComponentContext
 import club.vas3k.app.App
 import club.vas3k.app.di.IOSAppComponent
 import club.vas3k.app.di.create
+import club.vas3k.core.ktx.common.AppDispatchers
+import com.arkivanov.decompose.ComponentContext
 import com.russhwolf.settings.Settings
 import com.russhwolf.settings.observable.makeObservable
 import kotlinx.coroutines.CoroutineScope

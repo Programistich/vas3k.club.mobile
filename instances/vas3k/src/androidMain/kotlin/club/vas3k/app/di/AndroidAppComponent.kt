@@ -16,5 +16,4 @@ abstract class AndroidAppComponent(
     override val scope: CoroutineScope,
     @get:Provides val context: Context,
     @get:Provides val dependencies: AndroidPlatformDependencies
-) : AppComponent {
-}
+) : AppComponent

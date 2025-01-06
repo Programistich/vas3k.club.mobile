@@ -24,10 +24,10 @@ fun Vas3kTheme(
 
 @Composable
 fun Vas3kThemeInternal(
-    isLight: Boolean = true,
+    @Suppress("UnusedParameter") isLight: Boolean = true,
     content: @Composable () -> Unit,
 ) {
-    MaterialTheme() {
+    MaterialTheme {
         CompositionLocalProvider(
             LocalStackAnimationProvider provides AppAnimationProvider,
             content = content

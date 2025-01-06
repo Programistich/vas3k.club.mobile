@@ -1,11 +1,11 @@
 package club.vas3k.core.ui.lifecycle
 
 import androidx.annotation.CallSuper
+import club.vas3k.core.ktx.common.AppDispatchers
 import com.arkivanov.essenty.instancekeeper.InstanceKeeper
 import com.arkivanov.essenty.lifecycle.Lifecycle
 import com.arkivanov.essenty.lifecycle.LifecycleOwner
 import com.arkivanov.essenty.lifecycle.LifecycleRegistry
-import club.vas3k.core.ktx.common.AppDispatchers
 import kotlinx.coroutines.SupervisorJob
 
 abstract class DecomposeViewModel : InstanceKeeper.Instance, LifecycleOwner {
