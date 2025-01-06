@@ -39,7 +39,7 @@ fun main() {
         Window(
             onCloseRequest = ::exitApplication,
             state = windowState,
-            title = "BusyStatusBar",
+            title = "Vas3k App",
         ) {
             App(root, appComponent)
         }
