@@ -1,0 +1,4 @@
+plugins {
+    id("vas3k.multiplatform")
+    id("vas3k.multiplatform-dependencies")
+}

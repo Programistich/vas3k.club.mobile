@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/build-logic" name="build-logic">
+                <projects>
+                  <project path="$PROJECT_DIR$/build-logic" />
+                  <project path="$PROJECT_DIR$/build-logic/plugins" />
+                  <project path="$PROJECT_DIR$/build-logic/plugins/convention" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="testRunner" value="CHOOSE_PER_TEST" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/build-logic" />
+            <option value="$PROJECT_DIR$/build-logic/plugins" />
+            <option value="$PROJECT_DIR$/build-logic/plugins/convention" />
+            <option value="$PROJECT_DIR$/components" />
+            <option value="$PROJECT_DIR$/components/core" />
+            <option value="$PROJECT_DIR$/components/core/activityholder" />
+            <option value="$PROJECT_DIR$/components/core/build-konfig" />
+            <option value="$PROJECT_DIR$/components/core/data" />
+            <option value="$PROJECT_DIR$/components/core/di" />
+            <option value="$PROJECT_DIR$/components/core/ktx" />
+            <option value="$PROJECT_DIR$/components/core/log" />
+            <option value="$PROJECT_DIR$/components/core/ui" />
+            <option value="$PROJECT_DIR$/components/core/ui/decompose" />
+            <option value="$PROJECT_DIR$/components/core/ui/lifecycle" />
+            <option value="$PROJECT_DIR$/components/vas3k" />
+            <option value="$PROJECT_DIR$/components/vas3k/core" />
+            <option value="$PROJECT_DIR$/components/vas3k/core/theme" />
+            <option value="$PROJECT_DIR$/components/vas3k/preference" />
+            <option value="$PROJECT_DIR$/components/vas3k/preference/api" />
+            <option value="$PROJECT_DIR$/components/vas3k/preference/impl" />
+            <option value="$PROJECT_DIR$/components/vas3k/root" />
+            <option value="$PROJECT_DIR$/components/vas3k/root/api" />
+            <option value="$PROJECT_DIR$/components/vas3k/root/impl" />
+            <option value="$PROJECT_DIR$/instances" />
+            <option value="$PROJECT_DIR$/instances/vas3k" />
+          </set>
+        </option>
+        <option name="resolveExternalAnnotations" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
