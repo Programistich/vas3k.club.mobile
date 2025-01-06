@@ -40,7 +40,12 @@
             <option value="$PROJECT_DIR$/components/vas3k" />
             <option value="$PROJECT_DIR$/components/vas3k/core" />
             <option value="$PROJECT_DIR$/components/vas3k/core/theme" />
+            <option value="$PROJECT_DIR$/components/vas3k/preference" />
+            <option value="$PROJECT_DIR$/components/vas3k/preference/api" />
+            <option value="$PROJECT_DIR$/components/vas3k/preference/impl" />
             <option value="$PROJECT_DIR$/components/vas3k/root" />
+            <option value="$PROJECT_DIR$/components/vas3k/root/api" />
+            <option value="$PROJECT_DIR$/components/vas3k/root/impl" />
             <option value="$PROJECT_DIR$/instances" />
             <option value="$PROJECT_DIR$/instances/vas3k" />
           </set>

@@ -12,3 +12,14 @@ fun Project.includeCommonKspConfigurationTo(
         }
     }
 }
+
+
+fun Project.includeAllKspConfiguration() = includeCommonKspConfigurationTo(
+    "kspAndroid",
+    "kspDesktop",
+    "kspWasmJs",
+    "kspCommonMainMetadata",
+    "kspIosX64",
+    "kspIosArm64",
+    "kspIosSimulatorArm64"
+)

@@ -49,4 +49,4 @@ kotlin {
     }
 }
 
-includeCommonKspConfigurationTo("kspAndroid", "kspDesktop")
+includeAllKspConfiguration()

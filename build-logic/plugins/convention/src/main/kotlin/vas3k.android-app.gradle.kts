@@ -41,5 +41,3 @@ configure<BaseExtension> {
         }
     }
 }
-
-includeCommonKspConfigurationTo("ksp")

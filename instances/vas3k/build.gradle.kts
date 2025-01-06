@@ -49,7 +49,7 @@ kotlin {
         iosSimulatorArm64()
     ).forEach { iosTarget ->
         iosTarget.binaries.framework {
-            baseName = "ComposeApp"
+            baseName = "Vas3kApp"
             isStatic = true
 
             export(libs.decompose)
@@ -142,6 +142,8 @@ commonDependencies {
     implementation(projects.components.vas3k.preference.api)
     implementation(projects.components.vas3k.preference.impl)
 }
+
+includeCommonKspConfigurationTo("kspAndroid", "kspDesktop", )
 
 dependencies {
     add("kspCommonMainMetadata", libs.kotlin.inject.ksp)
