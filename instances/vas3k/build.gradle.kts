@@ -139,8 +139,15 @@ commonDependencies {
 
     implementation(projects.components.vas3k.root.api)
     implementation(projects.components.vas3k.root.impl)
+
+    implementation(projects.components.vas3k.auth.api)
+    implementation(projects.components.vas3k.auth.impl)
+
     implementation(projects.components.vas3k.preference.api)
     implementation(projects.components.vas3k.preference.impl)
+
+    implementation(projects.components.vas3k.backend.api)
+    implementation(projects.components.vas3k.backend.impl)
 }
 
 includeCommonKspConfigurationTo("kspAndroid", "kspDesktop",)

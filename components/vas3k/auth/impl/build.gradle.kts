@@ -1,17 +1,17 @@
 plugins {
     id("vas3k.multiplatform-compose")
+    id("vas3k.multiplatform-dependencies")
     id("vas3k.anvil-multiplatform")
     alias(libs.plugins.kotlin.serialization)
-    id("vas3k.multiplatform-dependencies")
 }
 
 commonDependencies {
-    implementation(projects.components.vas3k.root.api)
     implementation(projects.components.vas3k.auth.api)
+    implementation(projects.components.vas3k.backend.api)
 
     implementation(projects.components.core.di)
+    implementation(projects.components.core.ktx)
+    implementation(projects.components.core.log)
     implementation(projects.components.core.ui.decompose)
-    implementation(libs.ktor.client.core)
-
-    implementation(libs.decompose)
+    implementation(projects.components.core.ui.lifecycle)
 }

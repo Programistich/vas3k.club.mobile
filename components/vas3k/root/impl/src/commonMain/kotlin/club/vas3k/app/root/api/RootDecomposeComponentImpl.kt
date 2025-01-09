@@ -1,5 +1,6 @@
 package club.vas3k.app.root.api
 
+import club.vas3k.app.auth.api.AuthDecomposeComponent
 import club.vas3k.app.root.model.RootNavigationConfig
 import club.vas3k.core.di.AppGraph
 import club.vas3k.ui.decompose.DecomposeComponent
@@ -12,13 +13,13 @@ import software.amazon.lastmile.kotlin.inject.anvil.ContributesBinding
 @Inject
 class RootDecomposeComponentImpl(
     @Assisted componentContext: ComponentContext,
-    private val rootScreenDecomposeComponent: (ComponentContext) -> RootScreenDecomposeComponentImpl
+    private val authDecomposeComponentFactory: AuthDecomposeComponent.Factory,
 ) : RootDecomposeComponent(),
     ComponentContext by componentContext {
     override val stack = childStack(
         source = navigation,
         serializer = RootNavigationConfig.serializer(),
-        initialConfiguration = RootNavigationConfig.Main,
+        initialConfiguration = RootNavigationConfig.Auth,
         handleBackButton = true,
         childFactory = ::child,
     )
@@ -27,7 +28,7 @@ class RootDecomposeComponentImpl(
         config: RootNavigationConfig,
         componentContext: ComponentContext
     ): DecomposeComponent = when (config) {
-        RootNavigationConfig.Main -> rootScreenDecomposeComponent(componentContext)
+        RootNavigationConfig.Auth -> authDecomposeComponentFactory(componentContext)
     }
 
     @Inject

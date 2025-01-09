@@ -19,7 +19,7 @@
         </compositeConfiguration>
         <option name="testRunner" value="CHOOSE_PER_TEST" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -38,6 +38,12 @@
             <option value="$PROJECT_DIR$/components/core/ui/decompose" />
             <option value="$PROJECT_DIR$/components/core/ui/lifecycle" />
             <option value="$PROJECT_DIR$/components/vas3k" />
+            <option value="$PROJECT_DIR$/components/vas3k/auth" />
+            <option value="$PROJECT_DIR$/components/vas3k/auth/api" />
+            <option value="$PROJECT_DIR$/components/vas3k/auth/impl" />
+            <option value="$PROJECT_DIR$/components/vas3k/backend" />
+            <option value="$PROJECT_DIR$/components/vas3k/backend/api" />
+            <option value="$PROJECT_DIR$/components/vas3k/backend/impl" />
             <option value="$PROJECT_DIR$/components/vas3k/core" />
             <option value="$PROJECT_DIR$/components/vas3k/core/theme" />
             <option value="$PROJECT_DIR$/components/vas3k/preference" />

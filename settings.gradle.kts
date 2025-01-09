@@ -41,4 +41,10 @@ include(
     ":components:vas3k:root:impl",
     ":components:vas3k:preference:api",
     ":components:vas3k:preference:impl",
+
+    ":components:vas3k:backend:api",
+    ":components:vas3k:backend:impl",
+
+    ":components:vas3k:auth:api",
+    ":components:vas3k:auth:impl",
 )
